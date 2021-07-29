@@ -8,11 +8,17 @@ body,main,html{
     left:0;
     background-color: black;
     position: fixed;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    color:white;
+    text-align:center;
+    color:white;
+    font-size:40px;
 }
 #title{
     padding-top: 4em;
     text-align: center;
-
+    font-weight: 400;
+    line-height: 1.2;
 }
 #under-title{
     text-align: center;
@@ -22,33 +28,83 @@ body,main,html{
     max-width: 720px;
     margin: 0 auto;
     margin-top: 25px;
-    background-color:purple;
+    background-color:rgba(27,27,50,0.8);
 }
 #form{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     max-width: 685px;
-    background-color: purple;
+    background-color:rgba(27,27,50,0);
 }
 .inputs{
     display: flex;
     flex-direction: column;
     width:90%;
     margin: 0 auto;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 1vh;
+    padding-bottom: 1.5vh;
+}
+.inputs2 {
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    margin: 0 auto;
+
+    padding-bottom: 1.5vh;
+
 }
 label{
     padding-bottom: 5px;
 }
 #button{
-    height: 5vh;
+    height: 7vh;
     width: 100%;
     margin: 0 auto;
+    background-color: #37af65;
+    color:white;
+    border:none;
+    margin-top: 5em;
 }
 #space{
     padding-bottom: 15vh;
     margin: 0 auto;
     width: 90%;
+}
+#name{
+    padding-top: 3em;
+}
+#textbox{
+    height:2.5em;
+}
+#role{
+    height: 3em;
+}
+#endbox{
+    height: 10em;
+}
+.round{
+    border-radius: 5px;
+}
+.font{
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.4;
+color: white;
+}
+.textfont{
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.4;
+}
+.checkfont{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.4; 
+}
+.mainback{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 }
